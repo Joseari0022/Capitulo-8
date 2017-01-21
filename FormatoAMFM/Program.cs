@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capitulo_8
+namespace FormatoAMFM
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Capitulo_8
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CadenaOraciones());
+            Application.Run(new FormatoAMFM());
         }
     }
 }

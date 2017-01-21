@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EA4DA454-BC56-4322-BE2E-D665B283C686}</ProjectGuid>
+    <ProjectGuid>{BAC1F633-7430-4F5E-B36F-B7B1FEA652FC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Capitulo_8</RootNamespace>
-    <AssemblyName>Capitulo 8</AssemblyName>
+    <RootNamespace>OrdenAlfabetico</RootNamespace>
+    <AssemblyName>OrdenAlfabetico</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CadenaOraciones.cs">
+    <Compile Include="OrdenAlfabetico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadenaOraciones.Designer.cs">
-      <DependentUpon>CadenaOraciones.cs</DependentUpon>
+    <Compile Include="OrdenAlfabetico.Designer.cs">
+      <DependentUpon>OrdenAlfabetico.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CadenaOraciones.resx">
-      <DependentUpon>CadenaOraciones.cs</DependentUpon>
+    <EmbeddedResource Include="OrdenAlfabetico.resx">
+      <DependentUpon>OrdenAlfabetico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
